@@ -5,7 +5,7 @@ let songs = [];
 let currFolder = "";
 let currFoldersong = "";
 
-// Utility function to convert seconds to time string
+// Utility function to convert seconds to time 
 function convertSecondsToTime(seconds) {
   const minutes = Math.floor(seconds / 60);
   const secs = Math.floor(seconds % 60);
